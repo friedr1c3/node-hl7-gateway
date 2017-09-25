@@ -1,0 +1,23 @@
+{
+  "name": "hl7-gateway-server",
+  "version": "1.0.0",
+  "description": "HL7 messaging gateway and interfacing software built on top of Node.js for robust deployments.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hl7",
+    "gateway"
+  ],
+  "author": "Joshua",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "@types/node": "^8.0.30",
+    "pg": "^7.3.0"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.1.10",
+    "typeorm": "0.1.0-alpha.47"
+  }
+}
